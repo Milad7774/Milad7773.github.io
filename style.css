@@ -1,0 +1,54 @@
+.navigator{
+    background-color: grey;
+    font-size: 20px;
+    color: black;
+    height: 80px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    position: relative;
+}
+.dropdown-menu{
+    position: static;
+    width: 100%;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.dropdown-toggle{
+    position: absolute;
+    right: 10px;
+    top: -65px;
+}
+h2{
+    margin-bottom: 40px;
+}
+h1{
+    margin: 20px 0px 17px 10px;
+}
+.container-fluid > div > div{
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+.glyphicon-menu-hamburger{
+    font-size: 40px;
+}
+ul >li{
+    border: 1px solid black;
+    border-radius: 0;
+}
+@media (min-width: 831px) and (max-width : 934px){
+    p{
+        font-size: 13px;
+    }
+}
+@media (min-width: 500px) and (max-width: 831px){
+    p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 500px){
+    p{
+        font-size: 7px;
+    }
+}
